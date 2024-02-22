@@ -75,7 +75,7 @@ int main()
 			break;
 		case 5:
 			cout << "========== End program ==========";
-			return 0;
+			exit(0);
 		}
 	}
 }
