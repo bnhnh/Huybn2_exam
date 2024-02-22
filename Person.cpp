@@ -39,11 +39,11 @@ Roomm Person::getRoom() {
 
 void Person::display_p() {
 	cout << "Name: " << name << endl;
-	cout << "Id: " << pId << endl;
+	cout << "Person Id: " << pId << endl;
 	cout << "Age: " << age << endl;
 	cout << "Room: ";
 	room.display_r();
-	cout << "Num day rent: " << numberRent << endl;
+	cout << "Number of rental days: " << numberRent << endl;
 }
 
 int Person::cal_money() {
